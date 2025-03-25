@@ -13,7 +13,7 @@ export default function SuccessCard({ onReset }: SuccessCardProps) {
                 <Sparkles className="w-16 h-16 mx-auto mb-6 text-primary" />
                 <h2 className="text-2xl font-bold mb-4">Thank you for signing up!</h2>
                 <p className="text-muted-foreground mb-6">
-                    We're analyzing your website and will send you detailed UX & conversion insights shortly in your mail.
+                    We are analyzing your website and will send you detailed UX & conversion insights shortly in your mail.
                 </p>
                 <Button onClick={onReset}>Submit Another Website</Button>
             </Card>
